@@ -17,7 +17,7 @@ circuit.measure(3,3)
 circuit.measure(4,4)
 circuit.measure(5,5)
 
-simulator=AerSimualtor()
+simulator=AerSimulator()
 result=simulator.run(circuit).result()
 counts=result.get_counts()
 print("\n---6-QUBIT CHAIN REACTION COMPLETE")
